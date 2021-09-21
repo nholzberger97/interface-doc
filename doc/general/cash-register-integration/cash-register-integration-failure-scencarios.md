@@ -22,14 +22,11 @@ After fiskaltrust.Middleware has received an "end of failure receipt", the statu
 ![](./images/09-end-late-signing-mode.png)
 
 #### Failure of the Signature Creation Unit
-If the communication with the Signature Creation Unit fails, the POS System can continue to operate until the SCU is accessible again. Receipts created in a state where no communication is possible with the TSE device are protected by the security mechanism of fiskaltrust.The fiskaltrust.Middleware will respond with the ftState = 0x02 "SCU communication failed". The POS System receives the response and processes the data it contains. For following Requests no more communication attempts are done to avoid long waiting times for each Receipt request/Receipt response sequence.
+If the communication to the secure Signature Creation Device fails, the POS System can continue to operate until the SSCD is accessible again. Receipts created in a state where no communication is possible with the SSCD device are protected by the security mechanism of fiskaltrust.The fiskaltrust.Middleware will respond with the ftState = 0x02 "SSCD communication failed". The POS System receives the response and processes the data it contains. For following Requests no more communication attempts are done to avoid long waiting times for each Receipt request/Receipt response sequence.
 
 
 ![](./images/10-no-scu-connection.png)
   
-When the SCU is reachable again, a Zero-Receipt must be sent, which forces a communication retry towards the TSE device. If the fiskaltrust.Middleware is able to connect to the SCU again, the ftState = 0x00 (ok) is returned to the POS system via the response and the fiskaltrust.Middleware is ready for normal operation again. Furthermore, the response contains a listing of the requests that were not signed by the TSE. The requests affected by the failure of the communication with the SCU do not have to be sent to the Queue again after the problem has been resolved.
+When the SSCD is reachable again, a Zero-Receipt must be sent, which forces a communication retry towards the SSCD device. If the fiskaltrust.Middleware is able to connect to the SSCD again, the ftState = 0x00 (ok) is returned to the POS system via the response and the fiskaltrust.Middleware is ready for normal operation again. Furthermore, the response contains a listing of the requests that were not signed by the TSE. The requests affected by the failure of the communication with the SCU do not have to be sent to the Queue again after the problem has been resolved.
 
 ![](./images/11-reestablished-connection.png)
-
-
-
