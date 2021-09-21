@@ -12,7 +12,8 @@ module.exports = {
           items: [
             'middleware-doc/doc/general/general',
             'middleware-doc/doc/general/terminology/terminology',
-            'middleware-doc/doc/general/cash-register-integration/cash-register-integration',
+            'middleware-doc/doc/general/cash-register-integration/cash-register-integration-regular-workflow',
+            'middleware-doc/doc/general/cash-register-integration/cash-register-integration-failure-scenarios',
             'middleware-doc/doc/general/data-structures/data-structures',
             'middleware-doc/doc/general/function-structures/function-structures',
             'middleware-doc/doc/general/communication/communication',
