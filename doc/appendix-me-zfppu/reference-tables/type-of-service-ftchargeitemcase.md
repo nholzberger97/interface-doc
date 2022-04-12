@@ -7,8 +7,9 @@ title: 'Type of service: ftChargeItemCase'
 
 This table expands on the values provided in the table [ftChargeItemCase in General Part](../../general/reference-tables/reference-tables.md#type-of-service-ftchargeitemcase), with country-specific values applicable to the Montenegrin market.
 
-|| **Value**            | **Description**                | **Version** |
-|----------------------|--------------------------------|-------------|
+|  **Value**            | **Description**                 | **Version** |
+|-----------------------|---------------------------------|-------------|
+|0x4d45000000000001     |**Normal**                       |-------------|
 
 
 ## ftChargeItemCaseFlag
