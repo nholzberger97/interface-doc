@@ -17,5 +17,5 @@ This table expands on the values provided in table [ftReceiptCaseFlag in General
 
 | **Value**            | **Description**                      | **Version** |
 |----------------------|--------------------------------------|-------------|
-|`0x4d45000000000000`  |**Unknown type for country-code "DE"**|-------------|
+|`0x4d45000000000000`  |**Unknown type for country-code "ME"**|-------------|
 |`0x4d45000000000001`  |**Pos-receipt**                       |-------------|
