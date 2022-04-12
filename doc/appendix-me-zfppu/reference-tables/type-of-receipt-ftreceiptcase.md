@@ -15,6 +15,7 @@ For Montenegro (ME), the country code is `0x4d45`. Thus, the value of an unknown
 ## ftReceiptCaseFlag
 This table expands on the values provided in table [ftReceiptCaseFlag in General Part](../../general/reference-tables/reference-tables.md#ftreceiptcaseflag) with values applicable to the Montenegrin market.
 
-| **Value**            | **Description**                | **Version** |
-|----------------------|--------------------------------|-------------|
-
+| **Value**            | **Description**                      | **Version** |
+|----------------------|--------------------------------------|-------------|
+|`0x4d45000000000000`  |**Unknown type for country-code "DE"**|-------------|
+|`0x4d45000000000001`  |**Pos-receipt**                       |-------------|
