@@ -18,6 +18,12 @@ For Montenegro (ME), the country code is `0x4d45`. Thus, the value of an unknown
 |`0x4d45000000000004`  |**Out of operation receipt / stop-receipt**  |-------------|
 |`0x4d45000000000005`  |**Initial-daily receipt**                    |-------------|
 |`0x4d45000000000003`  |**Cash-withdrawal receipt**                  |-------------|
+|`0x4d45000000000003`  |**Cash deposit receipt**                     |-------------|
+|`0x4d45000000000003`  |**Partial void card receipt**                |-------------|
+|`0x4d45000000000003`  |**Partial void cash receipt**                |-------------|
+|`0x4d45000000000003`  |**Complete voidd card receipt**              |-------------|
+|`0x4d45000000000003`  |**Pos-receipt with discount reducing the base amount**|-------------|
+|`0x4d45000000000003`  |**Pos-receipt with discount not reducing the base amount**|-------------|
 
 
 ## ftReceiptCaseFlag
