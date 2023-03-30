@@ -153,5 +153,7 @@ Additional functionalities to be released at a later stage:
 -	POS-API-Helper with SOAP/GRPC/REST for zero-integration
 -	InStore App
 -	QR-Label / Give-Away and production of QR-codes before POS-API/print call
--	Share-button
+-	Share-button (Share receipt to 3rd partie apps like ReceiptHero)
 -	Apple-Wallet and Google-Wallet
+-	Save receipt to local device
+-	Sent receipt via E-Mail
